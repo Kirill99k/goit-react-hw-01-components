@@ -17,5 +17,6 @@ export const theme = Object.freeze({
   fonts: {
     secondary: "'Work Sans', sans-serif",
   },
+  cubicBezier: 'cubic-bezier(0.4, 0, 0.2, 1) 0s',
   spacing: value => `${4 * value}px`,
 });
